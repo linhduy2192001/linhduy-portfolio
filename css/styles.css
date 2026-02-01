@@ -3309,7 +3309,10 @@ td:last-child {
 .s-header__logo {
   z-index: 3;
   line-height: 1;
-  transform: translate(0.3rem, -0.2em);
+  /* Bỏ hoặc sửa lại transform cho cân bằng */
+  display: flex;
+  align-items: center;
+  transform: translate(0, 0);
 }
 
 .s-header__logo a {
